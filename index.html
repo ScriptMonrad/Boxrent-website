@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxrent</title>
+</head>
+<body>
+    <div class="top-main-block">
+
+        <header>
+            
+            <div class="logo">
+                <img src="img/logo.png" alt="boxrent-logo">
+            </div>
+
+            <ul class="head-menu">
+                <li class="menu-item">
+                    <a href="#">Главная</a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="#">Кто мы?</a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="#">Почему мы?</a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="#">Этапы работы</a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="#">Инвестирование</a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="#">Контакты</a>
+                </li>
+
+                <span class="phone-items">
+                    <li class="menu-item">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.10971 12C5.39065 12 0 6.66296 0 2.8881C0 1.39761 0.931792 0 2.52321 0C2.85718 0 4.3641 2.57277 4.3641 2.89019C4.3641 3.40971 2.82003 4.16836 2.82003 4.62798C2.82003 5.74532 6.25452 9.17988 7.37193 9.17988C7.83167 9.17988 8.59032 7.6358 9.10971 7.6358C9.20663 7.6358 11.8927 9.05617 11.9752 9.29944C12.5441 10.6229 10.4209 11.9999 9.10971 11.9999V12Z" fill="white"/>
+                            </svg>
+                            +371 20-440-882
+                        </a>
+                    </li>
+                </span>
+            </ul>
+        </header>
+
+        <div class="main-block-wrapper">
+
+            <div class="main-block-text">
+
+                <h1>
+                    Инвестируйте
+                    в контейнеры от 5 000 €
+                    с возвратом 15-17% в год
+                </h1>
+
+                <div class="main-block-points">
+
+                    <div class="point">
+                        <img src="img/point1.svg" alt="p1">
+                        <p>Физический контейнер в Вашей собственности</p>
+                    </div>
+
+                    <div class="point">
+                        <img src="img/point2.svg" alt="p1">
+                            <p>Инвестируйте в компанию которая имеет 200+ активных
+                            арендаторов и управляет активами в размере 300 000 € +
+                            </p>
+                    </div>
+
+                    <div class="point">
+                        <img src="img/point3.svg" alt="p1">
+                        <p>Средняя заполняемость складов выше 85%*</p>
+                    </div>
+                </div>
+
+                <button>Получить коммерческое предложение</button>
+
+            </div>
+
+
+            <div class="box-img">
+                <img src="img/box.png" alt="box">
+            </div>
+        </div>
+    </div>
+
+    <section class="calculator-section">
+
+        <div class="container">
+
+            <h2>Рассчитайте свою прибыль!</h2>
+            <div class="calculator-block">
+                <div class="calculator-item">
+                    <p class="value-title">Ваша инвестиция</p>
+                    <p class="value-block"><output id="value"></output>€</p>
+                    <input id="pi_input" type="range" min="5000" max="50000" step="1000"/>
+                    <div class="min-max">
+                        <p>5000€</p>
+                        <p>50000€+</p>
+                    </div>
+                </div>
+
+                <div class="calculator-item">
+                    <p class="value-title">В вашей собственности</p>
+                    <p class="value-block"><output id="value"></output>контейнера</p>
+                    <input id="pi_input" type="range" min="1" max="10" step="1"/>
+                    <div class="min-max">
+                        <p>1 конт.</p>
+                        <p>10 конт.+</p>
+                    </div>
+                </div>
+
+                <div class="calculator-item">
+                    <p class="value-title">Ваш возврат</p>
+                    <p class="value-block"><output id="value"></output>%</p>
+                    <input id="pi_input" type="range" min="1" max="17" step="0.1"/>
+                    <span class="min-max-dif">
+                        <div class="min-max">
+                                <p>15%</p>
+                            <span class="min-max-dif">
+                                <p>17%</p>
+                            </span>
+                        </div>
+                </div>
+
+                <div class="calc-card">
+                    <p class="calc-title">Ваш пассивный доход</p>
+                    <p class="calc-month">В месяц: <span class="red">129€</span></p>
+                    <p class="calc-year">В год: <span class="red">1 550 €</span></p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section class="wedo-section">
+
+        <div class="box-img-do">
+            <img src="img/box-p.png" alt="box">
+        </div>
+
+        <div class="wedo-text">
+            <h2>
+                Чем занимается
+                Boxrent ?
+            </h2>
+
+            <p>
+                Мы управляющая компания. Мы строим
+                склады из
+                морских контейнеров и сдаем
+                в короткий и долгий срок.
+            </p>
+            <br>
+            <p>
+                Мы открыли первую локацию в Риге 06.2020
+                и за 2 года вырасли до одной из лидирующих
+                компаний в Балтии по хранению вещей
+                в контейнерах.
+            </p>
+        </div>
+    </section>
+</body>
+    <script>
+
+    const value = document.querySelector("#value");
+    const input = document.querySelector("#pi_input");
+    value.textContent = input.value;
+    input.addEventListener("input", (event) => {
+        value.textContent = event.target.value;
+    });
+
+    </script>
+</html>
